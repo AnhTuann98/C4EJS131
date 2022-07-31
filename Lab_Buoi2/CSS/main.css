@@ -1,0 +1,26 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    font-size: 30px;
+}
+#id1{
+    font-size: 25px;
+    font-weight: 700;
+}
+.class1{
+    font-size: 25px;
+    font-weight: 700;
+}
+.class2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.class3{
+    font-weight: bold;
+
+}
+h3{
+    font-size: 28px;
+    text-align: center;
+}
