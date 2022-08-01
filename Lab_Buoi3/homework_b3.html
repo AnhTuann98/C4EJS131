@@ -24,36 +24,38 @@
 
 </head>
 <body>
-    <h1>FORM ĐĂNG KÝ TÀI KHOẢN</h1>
-    <div>
-        <label for="hoten">HỌ VÀ TÊN</label><br />
-        <input type="text" name="hoten" id="hoten" placeholder="Your Name"><br /><br />
-        <label for="email">EMAIL</label><br />
-        <input type="text" name="email" id="email" placeholder="Example@email.com"><br /><br />
-        <label for="phonenums">SỐ ĐIỆNTHOẠI</label><br />
-        <input type="text" name="phonenums" id="phonenums" placeholder="............"><br /><br />
-    </div>
-    <hr />
-    <div>
-        <h3>GIỚI TÍNH</h3>
-        <input type="radio" name="fav_language" id="nam">
-        <label for="nam">Nam</label>
-        <input type="radio" name="fav_language" id="nu">
-        <label for="nu">Nữ</label>
-    </div>
-    <div>
-        <h3>QUỐC TỊCH</h3>
-        <select name="" id="nationality">
-            <option value="USA">USA</option>
-            <option value="UK">UK</option>
-            <option value="VN">Việt Nam</option>
-            <option value="RS">Nga</option>
-            <option value="LAO">Lào</option>
-            <option value="CPC">Campuchia</option>
-        </select>
-    </div><br /><br />
-    <div>
-        <button type="submit">ĐĂNG KÝ</button>
-    </div>
+    <form action="/action_page.php">
+        <h1>FORM ĐĂNG KÝ TÀI KHOẢN</h1>
+        <div>
+            <label for="hoten">HỌ VÀ TÊN</label><br />
+            <input type="text" name="hoten" id="hoten" placeholder="Your Name"><br /><br />
+            <label for="email">EMAIL</label><br />
+            <input type="text" name="email" id="email" placeholder="Example@email.com"><br /><br />
+            <label for="phonenums">SỐ ĐIỆNTHOẠI</label><br />
+            <input type="text" name="phonenums" id="phonenums" placeholder="............"><br /><br />
+        </div>
+        <hr />
+        <div>
+            <h3>GIỚI TÍNH</h3>
+            <input type="radio" name="fav_language" id="nam">
+            <label for="nam">Nam</label>
+            <input type="radio" name="fav_language" id="nu">
+            <label for="nu">Nữ</label>
+        </div>
+        <div>
+            <h3>QUỐC TỊCH</h3>
+            <select name="" id="nationality">
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="VN">Việt Nam</option>
+                <option value="RS">Nga</option>
+                <option value="LAO">Lào</option>
+                <option value="CPC">Campuchia</option>
+            </select>
+        </div><br /><br />
+        <div>
+            <button type="submit">ĐĂNG KÝ</button>
+        </div>
+    </form>
 </body>
 </html>
