@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 800px;
+    margin: auto;
+
+}
+.header{
+    padding: 30px 0 40px;
+    background: rgb(237, 181, 247);
+    
+}
+.logo{
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+} 
+/* .content{
+
+} */
+.title{
+    padding-top: 20px;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.list-product{
+    border: 2px solid grey;
+    padding: 20px;
+    border-radius: 2%;
+    box-shadow: 1px 1px 10px;    
+    margin-bottom: 10px;
+}
+img{
+    width: 100%;
+}
+/* .product-content{
+
+} */
+.product-title{
+    font-size: 25px;
+}
+.product-price{
+    background:  rgb(237, 181, 247);
+    font-weight: 500;
+}
+.product-desc{
+    font-size: 20px;
+}
+.click{
+    margin: 12px 0;
+    font-size: 20px;
+    padding: 10px;
+    color: black;
+    background-color: rgb(237, 181, 247);   
+    border: 2px solid rgb(237, 181, 247);
+    border-radius: 10px;
+}
+.footer{
+    font-size: 30px;
+}

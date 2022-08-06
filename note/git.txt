@@ -1,0 +1,3 @@
+git config --global user.username "Mona Lisa"
+git config --global user.email "Mona Lisa"
+git config --global --list

@@ -1,0 +1,10 @@
+code lỗi bài 2
+- lồng thẻ p bên trong li
+-------------------------------
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+-------------------------------
+tìm hiểu sass
