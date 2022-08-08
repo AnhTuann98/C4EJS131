@@ -1,0 +1,36 @@
+/* .static{
+    position:static;
+    top: 50px;
+    left: 50px;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+.relative{
+    position: relative;
+    bottom: 50px;
+    left: 50px; 
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+.fixed{
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    box-sizing: border-box;
+    background: aqua;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+} */
+.absolute{
+    position: absolute;
+    background-color:red;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
