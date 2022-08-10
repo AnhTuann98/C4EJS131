@@ -1,0 +1,20 @@
+.container{
+   max-width: auto;
+    height: 500px;
+    background-color: firebrick;
+    display: flex;
+    justify-content:space-evenly;
+}
+.item{
+    width: 150px;
+    height: 150px;
+}
+.yellow{
+    background-color: yellowgreen;
+}
+.red{
+    background-color: red;
+}
+.black{
+    background-color: black;
+}
